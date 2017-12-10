@@ -6,7 +6,7 @@ import com.yopselmopsel.utilities.RandomGenerator;
 public class Main {
 
   public static void main(String[] args) {
-    int reservoir = RandomGenerator.generateRandom(10, 100);
+    int reservoir = RandomGenerator.generateRandom(10, 200);
     ReservoirHelper executor = new ReservoirHelper();
     int methods = executor.getAllMethodsOfPouringWithAllBuckets(reservoir);
 
